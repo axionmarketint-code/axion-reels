@@ -1,0 +1,59 @@
+name: Telegram to Instagram
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # checks for new Telegram posts every ~15 min
+  workflow_dispatch:          # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tg2ig
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      TELEGRAM_CHANNEL_ID: AXIONMarketUpdates
+      TELEGRAM_LINK: t.me/AXIONMarketUpdates
+      BRAND_NAME: AXION
+      BRAND_FULL: AXION MARKET INTELLIGENCE
+      TEMPLATE: auto   # auto = rotate; or classic / bold / terminal
+      TIMEZONE: America/Toronto
+      PUBLIC_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/videos
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install fonts and Python packages
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-dejavu-core
+          pip install -r requirements.txt
+
+      - name: Build videos from new Telegram posts
+        run: python tg2ig.py build
+
+      - name: Save videos so Instagram can download them
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || (git commit -m "New posts" && git push)
+
+      - name: Publish to Instagram
+        run: python tg2ig.py publish
+
+      - name: Save final state
+        run: |
+          git add -A
+          git diff --cached --quiet || (git commit -m "Update state" && git push)

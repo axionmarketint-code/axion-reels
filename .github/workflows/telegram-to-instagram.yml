@@ -26,6 +26,7 @@ jobs:
       BRAND_FULL: AXION MARKET INTELLIGENCE
       TEMPLATE: auto
       TIMEZONE: America/Toronto
+      IG_GRAPH_HOST: https://graph.facebook.com
       PUBLIC_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/videos
     steps:
       - uses: actions/checkout@v4

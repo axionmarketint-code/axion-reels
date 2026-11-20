@@ -88,3 +88,62 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-20 07:30
+```
+🟡 XAUUSD | NY Pre-Open Briefing
+⏱️ 12:30 GMT | Price 3,576
+
+📊 Bias: BEARISH 2/10 🔴
+London: +0.21% | 3,567–3,595 | inside Asia range
+📈 Trend: H1 ▬ | H4 ▼ | D1 ▼
+📍 R: 3,759 / 3,790
+📍 S: 3,515
+📆 PDH 3,759 | PDL 3,620
+⚙️ RSI 36 | ATR 33.68 | Vol: High ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-20 07:30
+```
+🔵 NAS100 | NY Pre-Open Briefing
+⏱️ 12:30 GMT | Price 26,068
+
+📊 Bias: BEARISH 1/10 🔴
+London: -0.97% | 26,050–26,396 | broke Asia low
+📈 Trend: H1 ▬ | H4 ▼ | D1 ▼
+📍 R: 26,396 / 27,374
+📍 S: n/a
+📆 PDH 27,786 | PDL 26,385 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-20 07:30
+```
+🟠 BTCUSD | NY Pre-Open Briefing
+⏱️ 12:30 GMT | Price 61,529
+
+📊 Bias: BEARISH 2/10 🔴
+London: -0.52% | 61,224–62,334 | broke Asia low
+📈 Trend: H1 ▬ | H4 ▼ | D1 ▼
+📍 R: 62,629 / 63,292
+📍 S: 61,420
+📆 PDH 64,075 | PDL 61,420 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-20 08:00
+```
+🔍 AXION | SETUP DEVELOPING
+
+🟠 ETHUSD  1,737
+📉 Bearish trend, price testing the previous-day low
+📍 Level: 1,735
+👀 Break and hold below = bearish continuation
+⏳ Not a signal yet. Wait for confirmation.
+
+Full update: t.me/AXIONMarketUpdates
+```
+

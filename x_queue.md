@@ -72,3 +72,19 @@ London: +0.60% | 3,567–3,590 | inside Asia range
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-20 05:30
+```
+📊 AXION | Forex Watch
+⏱️ 10:30 GMT
+
+💱 EURUSD 1.09590 | 🔴 BEARISH 1/10
+   H1 ▼ H4 ▼ D1 ▼ | RSI 47 | R 1.09803 | S 1.09549
+
+💱 GBPUSD 1.31026 | 🔴 BEARISH 2/10
+   H1 ▬ H4 ▼ D1 ▼ | RSI 43 | R 1.31535 | S 1.30804
+
+💱 USDJPY 158.874 | ⚪ NEUTRAL 4/10 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

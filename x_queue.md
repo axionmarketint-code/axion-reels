@@ -178,3 +178,19 @@ SHARP MOVE ETHUSD
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-20 16:01
+```
+📊 AXION | NY Close Recap
+⏱️ 21:00 GMT
+
+🟡 XAUUSD 3,525 | 🔴 BEARISH 1/10
+   H1 ▬ H4 ▼ D1 ▼ | RSI 29 | R 3,586 | S 3,515
+
+🔵 NAS100 25,099 | 🔴 BEARISH 1/10
+   H1 ▬ H4 ▼ D1 ▼ | RSI 20 | R 26,396 | S n/a
+
+🔵 SP500 6,934 | 🔴 BEARISH 1/10 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

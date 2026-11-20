@@ -43,3 +43,32 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-20 03:00
+```
+🚨 NEWS ALERT | EUR ECB President Lagarde Speech
+⏰ Release: 08:30 GMT
+
+💡 WHAT IT IS
+Central-bank policy or guidance. Tone and rate expectations can reprice currencies, gold and crypto quickly.
+
+🟢 POSITIVE for EUR - Stronger / more hawkish than expected ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-20 03:30
+```
+🟡 XAUUSD | London Open Gold
+⏱️ 08:30 GMT | Price 3,590
+
+📊 Bias: BEARISH 1/10 🔴
+London: +0.60% | 3,567–3,590 | inside Asia range
+📈 Trend: H1 ▬ | H4 ▼ | D1 ▼
+📍 R: 3,759 / 3,790
+📍 S: n/a
+📆 PDH 3,759 | PDL 3,620
+⚙️ RSI 29 | ATR 32.06 | Vol: High ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

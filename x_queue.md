@@ -14,3 +14,16 @@
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-20 01:00
+```
+🔍 AXION | SETUP DEVELOPING
+
+🟠 ETHUSD  1,740
+📉 Bearish trend, price testing the previous-day low
+📍 Level: 1,735
+👀 Break and hold below = bearish continuation
+⏳ Not a signal yet. Wait for confirmation.
+
+Full update: t.me/AXIONMarketUpdates
+```
+

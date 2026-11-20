@@ -147,3 +147,34 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-20 10:00
+```
+📊 AXION | US Session Check
+⏱️ 15:00 GMT
+
+🔵 NAS100 26,434 | 🔴 BEARISH 2/10
+   H1 ▬ H4 ▼ D1 ▼ | RSI 44 | R 27,374 | S n/a
+
+🔵 SP500 7,201 | 🔴 BEARISH 3/10
+   H1 ▬ H4 ▼ D1 ▼ | RSI 48 | R 7,383 | S 7,154
+
+🟠 BTCUSD 61,882 | 🔴 BEARISH 2/10 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-20 10:19
+```
+🚨🚨🚨 URGENT 🚨🚨🚨
+SHARP MOVE ETHUSD
+━━━━━━━━━━━━━━
+🟠 ETHUSD ▼ -37 pts in 5 min
+📊 Range 1.7x the H1 ATR
+📍 1,715 → 1,678
+
+📰 No scheduled high-impact news nearby. Possible unscheduled headline or liquidity event.
+ ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

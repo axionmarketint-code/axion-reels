@@ -24,6 +24,7 @@ jobs:
       TELEGRAM_LINK: t.me/AXIONMarketUpdates
       BRAND_NAME: AXION
       BRAND_FULL: AXION MARKET INTELLIGENCE
+      AUDIO_STYLE: "news,lofi"
       TEMPLATE: auto
       TIMEZONE: America/Toronto
       IG_GRAPH_HOST: https://graph.facebook.com

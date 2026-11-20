@@ -38,7 +38,7 @@ jobs:
       - name: Install fonts and Python packages
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq fonts-dejavu-core
+          sudo apt-get install -y -qq fonts-dejavu-core ffmpeg
           pip install -r requirements.txt
 
       - name: Build videos from new Telegram posts

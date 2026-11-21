@@ -194,3 +194,33 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-20 22:32
+```
+🚨🚨🚨 URGENT 🚨🚨🚨
+SHARP MOVE BTCUSD
+━━━━━━━━━━━━━━
+🟠 BTCUSD ▼ -1296 pts in 5 min
+📊 Range 1.5x the H1 ATR
+📍 58,374 → 57,078
+
+📰 No scheduled high-impact news nearby. Possible unscheduled headline or liquidity event.
+ ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-20 22:32
+```
+🚨🚨🚨 URGENT 🚨🚨🚨
+SHARP MOVE ETHUSD
+━━━━━━━━━━━━━━
+🟠 ETHUSD ▼ -46 pts in 5 min
+📊 Range 1.6x the H1 ATR
+📍 1,611 → 1,565
+
+📰 No scheduled high-impact news nearby. Possible unscheduled headline or liquidity event.
+ ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

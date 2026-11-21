@@ -224,3 +224,18 @@ SHARP MOVE ETHUSD
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-21 01:48
+```
+🚨🚨🚨 URGENT 🚨🚨🚨
+SHARP MOVE ETHUSD
+━━━━━━━━━━━━━━
+🟠 ETHUSD ▲ +39 pts in 5 min
+📊 Range 1.5x the H1 ATR
+📍 1,601 → 1,641
+
+📰 No scheduled high-impact news nearby. Possible unscheduled headline or liquidity event.
+ ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

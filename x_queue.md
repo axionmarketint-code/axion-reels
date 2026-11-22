@@ -269,3 +269,18 @@ SHARP MOVE BTCUSD
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-22 04:22
+```
+🟠 BTCUSD | AXION Bitcoin Market Update
+⏱️ 09:22 GMT | Price 60,024
+
+📊 Bias: NEUTRAL 4/10 ⚪
+London: +1.46% | 59,070–60,406 | broke Asia high
+📈 Trend: H1 ▬ | H4 ▼ | D1 ▼
+📍 R: 60,557 / 60,971
+📍 S: 58,764 / 57,770
+📆 PDH 60,971 | PDL 55,172 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

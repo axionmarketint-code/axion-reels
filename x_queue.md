@@ -284,3 +284,33 @@ London: +1.46% | 59,070–60,406 | broke Asia high
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-22 04:50
+```
+🚨🚨🚨 URGENT 🚨🚨🚨
+SHARP MOVE ETHUSD
+━━━━━━━━━━━━━━
+🟠 ETHUSD ▲ +16.7 pips in 5 min
+📊 Range 1.5x the H1 ATR
+📍 1,694 → 1,711
+
+📰 No scheduled high-impact news nearby. Possible unscheduled headline or liquidity event.
+ ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-22 04:52
+```
+🚨🚨🚨 URGENT 🚨🚨🚨
+SHARP MOVE BTCUSD
+━━━━━━━━━━━━━━
+🟠 BTCUSD ▲ +597.7 pips in 5 min
+📊 Range 1.5x the H1 ATR
+📍 60,176 → 60,774
+
+📰 No scheduled high-impact news nearby. Possible unscheduled headline or liquidity event.
+ ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

@@ -21,3 +21,18 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-23 17:34
+```
+🟠 BTCUSD | AXION Bitcoin Market Update
+⏱️ 22:34 GMT | Price 61,156
+
+📊 Bias: NEUTRAL 4/10 ⚪
+London: +2.12% | 61,059–64,587 | broke Asia high
+📈 Trend: H1 ▬ | H4 ▬ | D1 ▼
+📍 R: 61,399 / 61,905
+📍 S: 61,059 / 60,535
+📆 PDH 64,587 | PDL 60,376 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

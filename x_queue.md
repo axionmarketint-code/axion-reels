@@ -389,3 +389,19 @@ SHARP MOVE BTCUSD
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-23 01:30
+```
+📊 AXION | Asia Wrap
+⏱️ 06:30 GMT
+
+🟡 XAUUSD 3,617 | 🔴 BEARISH 3/10
+   H1 ▬ H4 ▼ D1 ▼ | RSI 58 | R 3,631 | S 3,515
+
+🔵 NAS100 25,813 | 🔴 BEARISH 2/10
+   H1 ▼ H4 ▼ D1 ▼ | RSI 47 | R 26,396 | S 24,926
+
+🔵 SP500 7,066 | 🔴 BEARISH 2/10 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

@@ -1,1 +1,141 @@
-
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AXION Alert Video Generator</title>
+<style>
+:root{--bg:#060b15;--card:#0e1626;--line:#27354c;--gold:#f4bd40;--txt:#f0f4fa;--mut:#96a3b9}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.4 system-ui,Segoe UI,Arial,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:20px 16px;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:24px}
+@media(max-width:820px){.wrap{grid-template-columns:1fr}}
+h1{font-size:20px;margin:0 0 4px;color:var(--gold);letter-spacing:.04em}p.s{color:var(--mut);margin:0 0 14px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+label{display:block;font-size:12px;color:var(--mut);margin:10px 0 3px;text-transform:uppercase;letter-spacing:.05em}
+input,textarea{width:100%;background:#0a111f;border:1px solid var(--line);border-radius:8px;color:var(--txt);padding:8px 10px;font:inherit}
+textarea{min-height:90px;resize:vertical}.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+button{background:var(--gold);color:#0e121a;border:0;border-radius:10px;padding:11px 14px;font-weight:700;font-size:15px;cursor:pointer;width:100%;margin-top:12px}
+button.g{background:#1a2437;color:var(--txt);border:1px solid var(--line)}button:disabled{opacity:.5;cursor:wait}
+canvas{width:100%;max-width:340px;aspect-ratio:9/16;border-radius:14px;border:1px solid var(--line);display:block;margin:0 auto;background:#000}
+.side{position:sticky;top:12px;align-self:start}#st{font-size:13px;color:var(--mut);margin-top:8px;text-align:center;min-height:18px}
+details{margin-top:10px}summary{cursor:pointer;color:var(--mut)}
+</style></head><body><div class="wrap">
+<div>
+<h1>AXION ALERT VIDEO GENERATOR</h1><p class="s">Paste an alert, check the fields, export a 9:16 MP4. Runs entirely in your browser.</p>
+<div class="panel"><label style="margin-top:0">Paste Telegram post (auto-fills the fields)</label>
+<textarea id="paste" placeholder="e.g. XAUUSD sharp move: +423.5 pips in 5 minutes, 3,534 → 3,576, 1.7x H1 ATR"></textarea>
+<button class="g" id="fill">Auto-fill from text</button></div>
+<div class="panel" style="margin-top:14px" id="form"></div>
+</div>
+<div class="side"><canvas id="cv" width="540" height="960"></canvas>
+<div style="max-width:340px;margin:0 auto"><button id="exp">Export MP4 (15s)</button><button class="g" id="png">Save still image (PNG)</button><div id="st"></div></div></div>
+</div>
+<script>
+const W=1080,H=1920,FPS=30,DUR=15;
+const D={header:"MARKET ALERT",symbol:"XAUUSD",title:"SHARP MOVE",subtitle:"IN JUST 5 MINUTES",pips:"+423.5",unit:"PIPS",from_price:"3,534",to_price:"3,576",range_text:"PRICE RANGE  •  1.7× H1 ATR",chart_label:"FAST PRICE EXPANSION",watch_title:"WHAT TO WATCH",watch1:"No scheduled high-impact news nearby.",watch2:"Possible unscheduled headline or liquidity event.",warn:"WIDE SPREADS  •  FAST REVERSALS",advice:"Don't chase the move. Stay disciplined.",cta:"JOIN OUR FREE DAILY SETUPS",footer:"ANALYSIS ONLY  •  NOT FINANCIAL ADVICE"};
+const LBL={header:"Header",symbol:"Symbol",title:"Title",subtitle:"Subtitle",pips:"Move (e.g. +423.5)",unit:"Unit",from_price:"From price",to_price:"To price",range_text:"Range line",chart_label:"Chart label",watch_title:"Watch title",watch1:"Watch line 1",watch2:"Watch line 2",warn:"Warning line",advice:"Advice line",cta:"Button text",footer:"Footer"};
+let F=Object.assign({},D);
+const form=document.getElementById("form");
+for(const k in D){const l=document.createElement("label");l.textContent=LBL[k];const i=document.createElement("input");i.id="f_"+k;i.value=D[k];i.oninput=()=>{F[k]=i.value};form.append(l,i)}
+function setFields(o){for(const k in o){F[k]=o[k];document.getElementById("f_"+k).value=o[k]}}
+const C={bg:"#060b15",grid:"#0b111c",gold:"#f4bd40",green:"#40d090",red:"#ff4d4d",white:"#f0f4fa",gray:"#96a3b9"};
+const FONT='"DejaVu Sans",Verdana,"Segoe UI",Arial,sans-serif';
+const PTS=[[146,1185],[246,1159],[330,1170],[410,1113],[499,1130],[585,1059],[670,1080],[755,1014],[845,1030],[935,985]];
+const ease=k=>{k=Math.max(0,Math.min(1,k));return 1-Math.pow(1-k,3)};
+function rr(g,x,y,w,h,r,fill,stroke){g.beginPath();g.roundRect(x,y,w,h,r);if(fill){g.fillStyle=fill;g.fill()}if(stroke){g.strokeStyle=stroke;g.lineWidth=2;g.stroke()}}
+function T(g,s,x,y,size,color,o={}){ // y = top of capital/glyph box approx
+  g.font=`${o.reg?"":"bold "}${size}px ${FONT}`;g.fillStyle=color;g.textBaseline="alphabetic";g.letterSpacing=(o.sp||0)+"px";
+  const m=g.measureText(s);let px=x;if(o.c)px=x-m.width/2;g.fillText(s,px,y);g.letterSpacing="0px";return m.width}
+const mix=(a,b,k)=>a.map((v,i)=>Math.round(v+(b[i]-v)*k));
+let bgc=null;function bg(){if(bgc)return bgc;bgc=document.createElement("canvas");bgc.width=W;bgc.height=H;const g=bgc.getContext("2d");g.fillStyle=C.bg;g.fillRect(0,0,W,H);g.fillStyle=C.grid;for(let x=0;x<W;x+=90)g.fillRect(x,0,1,H);for(let y=0;y<H;y+=90)g.fillRect(0,y,W,1);g.fillStyle=C.gold;g.fillRect(0,0,W,12);return bgc}
+function draw(g,t){
+  g.drawImage(bg(),0,0);
+  rr(g,65,71,951,89,22,"#290f13","#62232a");
+  const p=(1-Math.cos(2*Math.PI*t/1.25))/2,dc=mix([90,62,64],[255,77,77],p);
+  g.fillStyle=`rgb(${dc})`;g.beginPath();g.arc(108,114,15,0,7);g.fill();
+  T(g,F.header+"  /  "+F.symbol,148,125,34,C.white);
+  const k=ease(t/.6);g.save();g.globalAlpha=k;g.translate(0,(1-k)*30);
+  T(g,F.title,71,303,88,C.white,{sp:-1.56});T(g,F.subtitle,69,366,46,C.gold,{sp:.81});g.restore();
+  rr(g,65,431,951,459,30,"#0e1626","#27354c");
+  T(g,F.symbol,105,507,34,C.gray);
+  const up=!F.pips.trim().startsWith("-"),col=up?C.green:C.red;
+  const bw=T(g,F.pips,116,640,112,col,{sp:-4});T(g,F.unit,116+bw+50,632,40,col,{sp:-2});
+  T(g,F.from_price,108,758,53,C.white);T(g,"→",424,758,46,C.gold);T(g,F.to_price,554,758,53,C.white);
+  T(g,F.range_text,107,817,30,C.gold);
+  rr(g,111,971,858,253,28,"#0a111f","#25334a");
+  T(g,F.chart_label,142,1018,24,C.gray);
+  g.fillStyle="#202936";for(const y of [1026,1091,1156])g.fillRect(140,y-1,801,2);
+  const pts=up?PTS:PTS.map(([x,y])=>[x,2210-y]);
+  const prog=t<2.2?0:Math.min(1,(t-2.2)/3.6),n=pts.length-1,seg=prog*n;
+  const path=[pts[0]];for(let i=0;i<n;i++){if(seg>=i+1)path.push(pts[i+1]);else if(seg>i){const f=seg-i,a=pts[i],b=pts[i+1];path.push([a[0]+(b[0]-a[0])*f,a[1]+(b[1]-a[1])*f]);break}}
+  g.strokeStyle=col;g.fillStyle=col;g.lineWidth=7;g.lineJoin="round";g.lineCap="round";
+  if(path.length>1){g.beginPath();path.forEach((q,i)=>i?g.lineTo(q[0],q[1]):g.moveTo(q[0],q[1]));g.stroke()}
+  const e=path[path.length-1];g.beginPath();g.arc(e[0],e[1],12,0,7);g.fill();
+  rr(g,65,1281,951,254,30,"#1c1810","#684c24");
+  T(g,F.watch_title,106,1348,30,C.gold);T(g,F.watch1,107,1405,27,C.white,{reg:1});T(g,F.watch2,107,1447,25,C.gray,{reg:1});
+  T(g,F.warn,66,1620,30,C.red,{sp:1.17});T(g,F.advice,67,1677,30,C.white,{reg:1});
+  rr(g,65,1740,951,85,28,C.gold);T(g,F.cta,540,1793,32,"#0e121a",{c:1});
+  T(g,F.footer,65,1881,22,C.gray);
+}
+const cv=document.getElementById("cv"),cg=cv.getContext("2d"),st=document.getElementById("st");
+let busy=false,t0=performance.now();
+function loop(){if(!busy){const t=((performance.now()-t0)/1000)%DUR;cg.save();cg.scale(.5,.5);draw(cg,t);cg.restore()}requestAnimationFrame(loop)}
+loop();
+// ---------- parser ----------
+function parse(text){const o={};let m;
+ m=text.match(/\b([A-Z]{3,6}(?:USD|JPY|CHF|CAD|AUD|NZD|GBP|EUR|USDT)|XAU[A-Z]{3}|XAG[A-Z]{3}|BTC[A-Z]{3,4}|ETH[A-Z]{3,4}|US30|NAS100|SPX500|GER40|USOIL|[A-Z]{3,6}\/[A-Z]{3,4})\b/);if(m)o.symbol=m[1].replace("/","");
+ m=text.match(/([+\-−]?\s?\d[\d,]*\.?\d*)\s*(pips?|points?|pts|%)/i);if(m){let v=m[1].replace(/\s/g,"").replace("−","-");o.pips=/^[+-]/.test(v)?v:"+"+v;o.unit=/^pip/i.test(m[2])?"PIPS":m[2].toUpperCase()}
+ m=text.match(/(\d[\d,]*\.?\d*)\s*(?:→|->|-->|to)\s*(\d[\d,]*\.?\d*)/);if(m){o.from_price=m[1].replace(/[,.]$/,'');o.to_price=m[2].replace(/[,.]$/,'')}
+ m=text.match(/(?:in|within)\s+(?:just\s+)?(\d+)\s*(min|minutes|mins|hour|hours|h)\b/i);if(m)o.subtitle="IN JUST "+m[1]+(/^m/i.test(m[2])?" MINUTES":" HOURS");
+ m=text.match(/(\d+(?:\.\d+)?)\s*[x×]\s*(H\d|M\d+|D1)?\s*ATR/i);if(m)o.range_text="PRICE RANGE  •  "+m[1]+"× "+(m[2]||"H1").toUpperCase()+" ATR";
+ return o}
+document.getElementById("fill").onclick=()=>{const o=parse(document.getElementById("paste").value);setFields(o);st.textContent=Object.keys(o).length?"Filled: "+Object.keys(o).join(", "):"Nothing recognised, edit the fields by hand."};
+document.getElementById("png").onclick=()=>{const c=document.createElement("canvas");c.width=W;c.height=H;draw(c.getContext("2d"),14.9);c.toBlob(b=>save(b,"alert.png"))};
+function save(b,n){const a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=n;a.click()}
+// ---------- minimal MP4 muxer (H.264, single track) ----------
+const u32=n=>[n>>>24&255,n>>>16&255,n>>>8&255,n&255],u16=n=>[n>>8&255,n&255],str=s=>[...s].map(c=>c.charCodeAt(0));
+function box(type,...parts){const body=parts.flat(Infinity);return[...u32(8+body.length),...str(type),...body]}
+function fbox(type,ver,...parts){return box(type,[ver,0,0,0],...parts)}
+function muxMP4(chunks,desc,w,h,fps){
+ const n=chunks.length,ts=fps*1000,dur=1000;let sz=chunks.map(c=>c.data.length),off=[],ftyp=box("ftyp",str("isom"),u32(512),str("isomiso2avc1mp41"));
+ const mdatStart=ftyp.length+8;let o=mdatStart;for(const s of sz){off.push(o);o+=s}
+ const mvDur=Math.round(n/fps*1000),mat=[...u32(65536),0,0,0,0,0,0,0,0,...u32(65536),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,...u32(1073741824)];
+ const mvhd=fbox("mvhd",0,u32(0),u32(0),u32(1000),u32(mvDur),u32(65536),u16(256),[0,0],[0,0,0,0,0,0,0,0],mat,new Array(24).fill(0),u32(2));
+ const tkhd=box("tkhd",[0,0,0,3],u32(0),u32(0),u32(1),u32(0),u32(mvDur),[0,0,0,0,0,0,0,0],u16(0),u16(0),u16(0),u16(0),mat,u32(w<<16),u32(h<<16));
+ const mdhd=fbox("mdhd",0,u32(0),u32(0),u32(ts),u32(n*dur),u16(0x55c4),u16(0));
+ const hdlr=fbox("hdlr",0,u32(0),str("vide"),new Array(12).fill(0),str("VideoHandler"),[0]);
+ const vmhd=box("vmhd",[0,0,0,1],[0,0,0,0,0,0,0,0]);
+ const dinf=box("dinf",fbox("dref",0,u32(1),fbox("url ",0).map((v,i)=>i==11?1:v)));
+ const avcC=box("avcC",Array.from(desc));
+ const avc1=box("avc1",new Array(6).fill(0),u16(1),new Array(16).fill(0),u16(w),u16(h),u32(0x480000),u32(0x480000),u32(0),u16(1),new Array(32).fill(0),u16(24),u16(0xffff),avcC);
+ const stsd=fbox("stsd",0,u32(1),avc1),stts=fbox("stts",0,u32(1),u32(n),u32(dur));
+ const keys=chunks.map((c,i)=>c.key?i+1:0).filter(Boolean),stss=fbox("stss",0,u32(keys.length),keys.map(u32));
+ const stsc=fbox("stsc",0,u32(1),u32(1),u32(1),u32(1)),stsz=fbox("stsz",0,u32(0),u32(n),sz.map(u32)),stco=fbox("stco",0,u32(n),off.map(u32));
+ const stbl=box("stbl",stsd,stts,stss,stsc,stsz,stco),minf=box("minf",vmhd,dinf,stbl);
+ const moov=box("moov",mvhd,box("trak",tkhd,box("mdia",mdhd,hdlr,minf)));
+ const total=ftyp.length+8+sz.reduce((a,b)=>a+b,0)+moov.length,out=new Uint8Array(total);let p=0;
+ out.set(ftyp,p);p+=ftyp.length;out.set([...u32(8+sz.reduce((a,b)=>a+b,0)),...str("mdat")],p);p+=8;
+ for(const c of chunks){out.set(c.data,p);p+=c.data.length}out.set(moov,p);return out}
+// ---------- export ----------
+const eb=document.getElementById("exp");
+eb.onclick=async()=>{busy=true;eb.disabled=true;try{
+ const c=document.createElement("canvas");c.width=W;c.height=H;const g=c.getContext("2d"),N=DUR*FPS;
+ if(window.VideoEncoder){
+  const cfg={codec:"avc1.640033",width:W,height:H,bitrate:6e6,framerate:FPS,avc:{format:"avc"}};
+  let ok=(await VideoEncoder.isConfigSupported(cfg)).supported;let use=cfg;
+  if(!ok){use=Object.assign({},cfg,{codec:"avc1.42E028"});ok=(await VideoEncoder.isConfigSupported(use)).supported}
+  if(ok){const chunks=[];let desc=null,err=null;
+   const enc=new VideoEncoder({output:(ch,meta)=>{const d=new Uint8Array(ch.byteLength);ch.copyTo(d);chunks.push({data:d,key:ch.type==="key"});if(meta&&meta.decoderConfig&&meta.decoderConfig.description)desc=new Uint8Array(meta.decoderConfig.description)},error:e=>err=e});
+   enc.configure(use);
+   for(let i=0;i<N;i++){draw(g,i/FPS);const f=new VideoFrame(c,{timestamp:Math.round(i*1e6/FPS),duration:Math.round(1e6/FPS)});enc.encode(f,{keyFrame:i%FPS===0});f.close();
+    if(enc.encodeQueueSize>8)await new Promise(r=>setTimeout(r,5));if(i%15==0){st.textContent=`Encoding ${Math.round(i/N*100)}%`;await new Promise(r=>setTimeout(r))}if(err)throw err}
+   await enc.flush();if(!desc)throw new Error("no avc config");
+   const mp4=muxMP4(chunks,desc,W,H,FPS);window.__mp4=mp4;save(new Blob([mp4],{type:"video/mp4"}),"axion-alert.mp4");st.textContent="Done: axion-alert.mp4";return}}
+ // fallback: real-time recording
+ st.textContent="Recording in real time (15s)...";
+ const stream=c.captureStream(FPS),types=["video/mp4;codecs=avc1","video/webm;codecs=vp9","video/webm"],mt=types.find(t=>window.MediaRecorder&&MediaRecorder.isTypeSupported(t));
+ if(!mt)throw new Error("This browser cannot record video. Use Chrome or Edge.");
+ const rec=new MediaRecorder(stream,{mimeType:mt,videoBitsPerSecond:6e6}),parts=[];rec.ondataavailable=e=>parts.push(e.data);
+ const done=new Promise(r=>rec.onstop=r);rec.start();const s=performance.now();
+ await new Promise(res=>{(function f(){const t=(performance.now()-s)/1000;draw(g,Math.min(t,DUR));if(t<DUR)requestAnimationFrame(f);else res()})()});
+ rec.stop();await done;const ext=mt.startsWith("video/mp4")?"mp4":"webm";save(new Blob(parts,{type:mt}),"axion-alert."+ext);
+ st.textContent="Done (saved as ."+ext+(ext==="webm"?"; use Chrome/Edge for MP4":"")+")";
+}catch(e){st.textContent="Export failed: "+e.message}finally{busy=false;eb.disabled=false}};
+</script></body></html>

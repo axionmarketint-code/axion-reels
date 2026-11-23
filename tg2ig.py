@@ -52,6 +52,7 @@ AUDIO_STYLE = os.getenv("AUDIO_STYLE", "theme")  # theme | news | cinematic | co
 AUDIO = os.getenv("AUDIO", "on") == "on"            # background sound on/off
 MUSIC_VOLUME = float(os.getenv("MUSIC_VOLUME", "0.35"))  # volume for your own tracks in music/
 TEMPLATE = os.getenv("TEMPLATE", "auto")  # classic | bold | terminal | auto (rotate)
+ALERT_TEMPLATE = os.getenv("ALERT_TEMPLATE", "on")  # "off" disables the Market Alert template for sharp-move posts
 LOGO_PATH = os.getenv("LOGO_PATH") or str(ROOT / "logo.png")
 LOGO_HAS_NAME = os.getenv("LOGO_HAS_NAME", "1") == "1"  # logo already shows the full name
 

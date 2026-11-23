@@ -70,6 +70,39 @@ PNG (at least 900 px wide is ideal). If you switch to a logo without the name in
 `TEMPLATE: auto` rotates through all three so your feed doesn't look repetitive.
 To lock one in, change it in the workflow file, e.g. `TEMPLATE: bold`.
 
+## Telegram delivery mode (current, replaces Instagram posting)
+Instagram's API stopped working for us, so each finished Reel is sent to YOU in a private
+Telegram chat with the bot: the video, then the Instagram caption, then the X text.
+You save the video, post it in the Instagram app (or schedule it in Meta Business Suite),
+and paste the caption. Needs GitHub secret REVIEW_CHAT_ID (your numeric Telegram ID from
+@userinfobot, after pressing Start on your bot) and DELIVERY: telegram in the workflow.
+Videos are not stored in the repo in this mode.
+
+## Filtering what gets sent
+Posts that look like trade setups/signals are skipped for BOTH Instagram and the X queue.
+A post is skipped if its first two lines contain: setup, signal, trade idea, trade alert,
+or if anywhere it contains: stop loss, take profit, tp1, tp2, entry:, sl:
+Change the lists with `SKIP_TITLE_WORDS` and `SKIP_ANYWHERE_WORDS` in the workflow `env:`
+block (comma separated). To send ONLY certain types, set `ONLY_TITLE_WORDS`, for example
+`ONLY_TITLE_WORDS: "news,recap,summary,session check"`. The build log prints
+"Skipped post N: reason" so you can see what was filtered.
+
+## Sound
+Every Reel gets background sound, because silent Reels perform worse. By default the
+pipeline generates an original soft music bed (pad, pulse, light hi-hat), so there are no
+copyright problems. Each template has its own tempo.
+Choose a style with `AUDIO_STYLE` in the workflow `env:` block: `news` (tense pulse and
+riser), `cinematic` (dark bass and strings), `corporate` (clean, upbeat), `lofi` (soft keys,
+relaxed beat), or `theme` (default, tied to each template). Use a comma list such as
+`AUDIO_STYLE: "cinematic,lofi"` to rotate between styles.
+To use your own music instead: create a folder named **music** in the repo and upload
+royalty-free .mp3 / .wav / .m4a files into it. The pipeline rotates through them,
+loops them to fit, and fades in and out. Only use music you have the rights to
+(for example tracks marked free for commercial use, such as Pixabay Music).
+Settings in the workflow `env:` block: `AUDIO: "off"` for silent videos, and
+`MUSIC_VOLUME` (default 0.35) for your own tracks.
+Note: Instagram's own music library cannot be used by automated posts.
+
 ## Settings you can change
 Edit the `env:` block in `.github/workflows/telegram-to-instagram.yml`:
 `BRAND_FULL`, `TEMPLATE`, `TIMEZONE`, `TELEGRAM_LINK`. Optional extras: `HASHTAGS`, `DISCLAIMER`,
@@ -82,3 +115,8 @@ starting with + / - and for BUY / SELL words.
 
 ## Always include
 The videos and captions carry a "not financial advice" disclaimer. Keep it.
+
+## Market Alert video generator
+- Web app: repo Settings > Pages > Source = GitHub Actions, then run "Publish web generator". Link: https://<user>.github.io/<repo>/
+- Desktop app: Actions > "Build desktop app" > Run, then download the file for your system from the run's Artifacts.
+- Automatic: sharp-move posts are rendered with this template by the normal pipeline (ALERT_TEMPLATE: "off" to disable).

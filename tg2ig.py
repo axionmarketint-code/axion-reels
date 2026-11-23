@@ -532,6 +532,20 @@ def audio_args(theme_name, total, out_path):
     return ["-i", str(wav)], ["-af", fade]
 
 
+def add_sound(video_path, total):
+    """Mux the sound track (own music or generated) into an already-rendered silent video."""
+    video_path = Path(video_path)
+    tmp = video_path.with_name(video_path.stem + "_a.mp4")
+    a_in, a_filter = audio_args("classic", total, video_path)
+    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(video_path), *a_in, *a_filter,
+           "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "128k", "-t", str(total), str(tmp)]
+    subprocess.run(cmd, check=True)
+    tmp.replace(video_path)
+    wav = Path(str(video_path) + ".wav")
+    if wav.exists():
+        wav.unlink()
+
+
 def paginate(text, th, max_w, min_size=46, max_h=900, max_pages=4):
     """Split long posts into pages that each fit one card at a readable size."""
     def fits(t):
@@ -867,12 +881,14 @@ def cmd_build():
                 try:
                     import alert_template
                     f = alert_template.parse_alert(text)
-                    if "pips" in f and "from_price" in f and re.search(r"sharp|spike|surge|plunge|alert|move", text, re.I):
+                    if "pips" in f and "from_price" in f and re.search(r"sharp|spike|surge|plunge|urgent|rapid|flash|fast price|sudden", text, re.I):
                         alert = f
                 except Exception as e:
                     print(f"Alert template unavailable: {e}")
             if alert:
                 alert_template.render_video(alert, str(path))
+                if AUDIO:
+                    add_sound(path, alert_template.DUR)
                 secs, tpl = alert_template.DUR, "market-alert"
             else:
                 secs = render_video(text, when, path, tpl)

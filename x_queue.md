@@ -359,3 +359,33 @@ SHARP MOVE XAUUSD
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-22 22:20
+```
+🚨🚨🚨 URGENT 🚨🚨🚨
+SHARP MOVE ETHUSD
+━━━━━━━━━━━━━━
+🟠 ETHUSD ▲ +22.9 pips in 5 min
+📊 Range 2.1x the H1 ATR
+📍 1,719 → 1,742
+
+📰 No scheduled high-impact news nearby. Possible unscheduled headline or liquidity event.
+ ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-22 22:21
+```
+🚨🚨🚨 URGENT 🚨🚨🚨
+SHARP MOVE BTCUSD
+━━━━━━━━━━━━━━
+🟠 BTCUSD ▲ +784.8 pips in 5 min
+📊 Range 2.0x the H1 ATR
+📍 61,098 → 61,883
+
+📰 No scheduled high-impact news nearby. Possible unscheduled headline or liquidity event.
+ ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

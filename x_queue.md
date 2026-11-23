@@ -497,3 +497,63 @@ SHARP MOVE EURUSD
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-23 07:46
+```
+🚨🚨🚨 URGENT 🚨🚨🚨
+SHARP MOVE GBPUSD
+━━━━━━━━━━━━━━
+💱 GBPUSD ▼ -18.9 pips in 5 min
+📊 Range 1.6x the H1 ATR
+📍 1.30898 → 1.30709
+
+📰 No scheduled high-impact news nearby. Possible unscheduled headline or liquidity event.
+ ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-23 08:52
+```
+🚨🚨🚨 URGENT 🚨🚨🚨
+SHARP MOVE EURUSD
+━━━━━━━━━━━━━━
+💱 EURUSD ▼ -17.4 pips in 5 min
+📊 Range 1.7x the H1 ATR
+📍 1.09349 → 1.09175
+
+📰 No scheduled high-impact news nearby. Possible unscheduled headline or liquidity event.
+ ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-23 08:55
+```
+🚨🚨🚨 URGENT 🚨🚨🚨
+SHARP MOVE NAS100
+━━━━━━━━━━━━━━
+🔵 NAS100 ▲ +260.9 pips in 5 min
+📊 Range 1.7x the H1 ATR
+📍 25,842 → 26,103
+
+📰 No scheduled high-impact news nearby. Possible unscheduled headline or liquidity event.
+ ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-23 08:55
+```
+🚨🚨🚨 URGENT 🚨🚨🚨
+SHARP MOVE SP500
+━━━━━━━━━━━━━━
+🔵 SP500 ▲ +59.7 pips in 5 min
+📊 Range 2.1x the H1 ATR
+📍 7,076 → 7,136
+
+📰 No scheduled high-impact news nearby. Possible unscheduled headline or liquidity event.
+ ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

@@ -758,6 +758,9 @@ def http(method, url, **kw):
     """requests wrapper that never leaks URLs/tokens into error output."""
     last = None
     for attempt in range(4):  # retry brief network hiccups: waits 5s, 15s, 30s
+        for f in (kw.get("files") or {}).values():
+            if hasattr(f, "seek"):
+                f.seek(0)
         try:
             return requests.request(method, url, timeout=60, **kw)
         except requests.RequestException as e:
@@ -858,7 +861,20 @@ def cmd_build():
         vid = f"{post['chat']['id']}_{post['message_id']}".replace("-", "n")
         path = VIDEO_DIR / f"{vid}.mp4"
         try:
-            secs = render_video(text, when, path, tpl)
+            alert = None
+            if ALERT_TEMPLATE != "off":
+                try:
+                    import alert_template
+                    f = alert_template.parse_alert(text)
+                    if "pips" in f and "from_price" in f and re.search(r"sharp|spike|surge|plunge|alert|move", text, re.I):
+                        alert = f
+                except Exception as e:
+                    print(f"Alert template unavailable: {e}")
+            if alert:
+                alert_template.render_video(alert, str(path))
+                secs, tpl = alert_template.DUR, "market-alert"
+            else:
+                secs = render_video(text, when, path, tpl)
         except Exception as e:  # keep going if one post fails
             print(f"Could not render post {post['message_id']}: {e}")
             continue
@@ -869,7 +885,7 @@ def cmd_build():
             f"Join free on Telegram (link in bio): {TG_LINK}\n\n"
             f"{DISCLAIMER}\n\n{BRAND_FULL}\n{HASHTAGS}"
         )[:2200]
-        pending.append({"file": path.name, "caption": caption, "attempts": 0})
+        pending.append({"file": path.name, "caption": caption, "x_text": make_x_text(text), "attempts": 0})
         with XQUEUE.open("a", encoding="utf-8") as f:
             f.write(f"### {when.strftime('%Y-%m-%d %H:%M')}\n```\n{make_x_text(text)}\n```\n\n")
         done += 1
@@ -917,11 +933,55 @@ def ig_publish_reel(user_id, token, video_url, caption):
     return ig_call("POST", f"{user_id}/media_publish", token, data={"creation_id": c})["id"]
 
 
+def tg_ok(r):
+    try:
+        j = r.json()
+    except ValueError:
+        j = {}
+    if r.status_code != 200 or not j.get("ok"):
+        raise RuntimeError(f"Telegram error {r.status_code}: {j.get('description', 'unknown')}")
+
+
+def deliver_telegram(pending, chat):
+    """Send each finished Reel + captions to a private chat so you can post it by hand."""
+    token = need("TELEGRAM_BOT_TOKEN")
+    api = f"https://api.telegram.org/bot{token}"
+    keep = []
+    for p in pending:
+        path = VIDEO_DIR / p["file"]
+        try:
+            if not path.exists():
+                raise RuntimeError("video file missing")
+            with path.open("rb") as f:
+                tg_ok(http("POST", f"{api}/sendVideo", files={"video": f}, data={
+                    "chat_id": chat, "supports_streaming": "true", "width": W, "height": H,
+                    "caption": "Reel ready. Save this video, post it on Instagram, and use the caption below.",
+                }))
+            tg_ok(http("POST", f"{api}/sendMessage", data={"chat_id": chat, "text": "INSTAGRAM CAPTION:\n\n" + p["caption"]}))
+            if p.get("x_text"):
+                tg_ok(http("POST", f"{api}/sendMessage", data={"chat_id": chat, "text": "X POST (copy and paste):\n\n" + p["x_text"]}))
+            print(f"Delivered {p['file']} to your Telegram queue")
+            path.unlink(missing_ok=True)
+        except Exception as e:
+            p["attempts"] += 1
+            print(f"Failed {p['file']} (attempt {p['attempts']}): {e}")
+            if p["attempts"] < 3:
+                keep.append(p)
+            else:
+                path.unlink(missing_ok=True)
+    save_json(PENDING, keep)
+
+
 def cmd_publish():
     pending = load_json(PENDING, [])
     if not pending:
         print("Nothing to publish.")
         return
+    chat = os.getenv("REVIEW_CHAT_ID", "").strip()
+    if os.getenv("DELIVERY", "telegram" if chat else "instagram") == "telegram":
+        if not chat:
+            sys.exit("DELIVERY is telegram but REVIEW_CHAT_ID is not set")
+        return deliver_telegram(pending, chat)
     user_id, token = os.getenv("IG_USER_ID"), os.getenv("IG_ACCESS_TOKEN")
     base = os.getenv("PUBLIC_BASE_URL", "").rstrip("/")
     if not (user_id and token and base):

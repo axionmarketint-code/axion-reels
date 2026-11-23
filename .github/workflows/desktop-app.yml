@@ -1,0 +1,19 @@
+name: Build desktop app
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [windows-latest, macos-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install Pillow imageio-ffmpeg pyinstaller
+      - run: pyinstaller --onefile --windowed --name AXION-Alert-Generator --add-data "fonts${{ runner.os == 'Windows' && ';' || ':' }}fonts" --collect-all imageio_ffmpeg desktop_app.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: AXION-Alert-Generator-${{ matrix.os }}
+          path: dist/*

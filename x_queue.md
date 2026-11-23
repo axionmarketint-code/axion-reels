@@ -437,3 +437,63 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-23 07:30
+```
+🟡 XAUUSD | NY Pre-Open Briefing
+⏱️ 12:30 GMT | Price 3,615
+
+📊 Bias: BEARISH 3/10 🔴
+London: -0.09% | 3,600–3,627 | inside Asia range
+📈 Trend: H1 ▬ | H4 ▼ | D1 ▼
+📍 R: 3,631 / 3,759
+📍 S: 3,600 / 3,515
+📆 PDH 3,637 | PDL 3,503 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-23 07:30
+```
+🔵 NAS100 | NY Pre-Open Briefing
+⏱️ 12:30 GMT | Price 25,866
+
+📊 Bias: BEARISH 3/10 🔴
+London: +0.12% | 25,829–26,065 | broke Asia high
+📈 Trend: H1 ▬ | H4 ▼ | D1 ▼
+📍 R: 25,902 / 26,396
+📍 S: 24,926
+📆 PDH 26,537 | PDL 24,926 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-23 07:30
+```
+🟠 BTCUSD | NY Pre-Open Briefing
+⏱️ 12:30 GMT | Price 61,357
+
+📊 Bias: NEUTRAL 4/10 ⚪
+London: -0.15% | 61,131–61,905 | inside Asia range
+📈 Trend: H1 ▬ | H4 ▬ | D1 ▼
+📍 R: 61,662 / 61,951
+📍 S: 61,284 / 60,535
+📆 PDH 61,662 | PDL 58,764 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-23 07:46
+```
+🚨🚨🚨 URGENT 🚨🚨🚨
+SHARP MOVE EURUSD
+━━━━━━━━━━━━━━
+💱 EURUSD ▼ -13.7 pips in 5 min
+📊 Range 1.5x the H1 ATR
+📍 1.09558 → 1.09421
+
+📰 No scheduled high-impact news nearby. Possible unscheduled headline or liquidity event.
+ ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

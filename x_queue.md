@@ -137,3 +137,41 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-24 09:30
+```
+USD CB Consumer Confidence Index - coming up
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-24 09:30
+```
+🚨 NEWS ALERT | USD CB Consumer Confidence Index
+⏰ Release: 15:00 GMT
+📊 Forecast: 91.50
+📋 Previous: 91.70
+
+💡 WHAT IT IS
+Shows consumer spending power and confidence, a major driver of economic growth.
+
+🟢 POSITIVE for USD - HIGHER than forecast ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-24 10:00
+```
+📊 AXION | US Session Check
+⏱️ 15:00 GMT
+
+🔵 NAS100 26,420 | 🔴 BEARISH 2/10
+   H1 ▬ H4 ▼ D1 ▼ | RSI 47 | R 26,453 | S 25,787
+
+🔵 SP500 7,223 | 🔴 BEARISH 3/10
+   H1 ▲ H4 ▼ D1 ▼ | RSI 53 | R 7,272 | S 7,154
+
+🟠 BTCUSD 60,490 | 🔴 BEARISH 2/10 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

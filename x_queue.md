@@ -36,3 +36,19 @@ London: +2.12% | 61,059–64,587 | broke Asia high
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-24 01:30
+```
+📊 AXION | Asia Wrap
+⏱️ 06:30 GMT
+
+🟡 XAUUSD 3,618 | 🔴 BEARISH 2/10
+   H1 ▬ H4 ▼ D1 ▼ | RSI 51 | R 3,631 | S 3,611
+
+🔵 NAS100 26,791 | ⚪ NEUTRAL 5/10
+   H1 ▲ H4 ▬ D1 ▼ | RSI 63 | R 26,912 | S 26,635
+
+🔵 SP500 7,254 | ⚪ NEUTRAL 5/10 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

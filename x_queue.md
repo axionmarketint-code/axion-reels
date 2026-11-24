@@ -130,3 +130,10 @@ London: -0.32% | 59,381–60,558 | broke Asia low
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-24 08:08
+```
+🚨 SHARP MOVE SP500
+
+Full update: t.me/AXIONMarketUpdates
+```
+

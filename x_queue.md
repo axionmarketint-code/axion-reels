@@ -52,3 +52,19 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-24 03:30
+```
+🟡 XAUUSD | London Open Gold
+⏱️ 08:30 GMT | Price 3,610
+
+📊 Bias: BEARISH 2/10 🔴
+London: -0.31% | 3,607–3,629 | broke Asia low
+📈 Trend: H1 ▬ | H4 ▼ | D1 ▼
+📍 R: 3,631 / 3,678
+📍 S: 3,600 / 3,515
+📆 PDH 3,690 | PDL 3,555
+⚙️ RSI 46 | ATR 19.29 | Vol: Low ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

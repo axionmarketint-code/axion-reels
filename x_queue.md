@@ -175,3 +175,19 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-24 16:00
+```
+📊 AXION | NY Close Recap
+⏱️ 21:00 GMT
+
+🟡 XAUUSD 3,553 | 🔴 BEARISH 1/10
+   H1 ▬ H4 ▼ D1 ▼ | RSI 30 | R 3,586 | S 3,515
+
+🔵 NAS100 26,212 | 🔴 BEARISH 2/10
+   H1 ▬ H4 ▼ D1 ▼ | RSI 46 | R 26,396 | S 25,953
+
+🔵 SP500 7,203 | ⚪ NEUTRAL 4/10 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

@@ -52,6 +52,8 @@ AUDIO_STYLE = os.getenv("AUDIO_STYLE", "theme")  # theme | news | cinematic | co
 AUDIO = os.getenv("AUDIO", "on") == "on"            # background sound on/off
 MUSIC_VOLUME = float(os.getenv("MUSIC_VOLUME", "0.35"))  # volume for your own tracks in music/
 TEMPLATE = os.getenv("TEMPLATE", "auto")  # classic | bold | terminal | auto (rotate)
+BREAKING_TEMPLATE = os.getenv("BREAKING_TEMPLATE", "on")
+BREAKING_WORDS = os.getenv("BREAKING_WORDS", r"breaking|news result|just in|headline")  # regex; which posts use the Breaking News template
 ALERT_TEMPLATE = os.getenv("ALERT_TEMPLATE", "on")  # "off" disables the Market Alert template for sharp-move posts
 LOGO_PATH = os.getenv("LOGO_PATH") or str(ROOT / "logo.png")
 LOGO_HAS_NAME = os.getenv("LOGO_HAS_NAME", "1") == "1"  # logo already shows the full name
@@ -885,7 +887,19 @@ def cmd_build():
                         alert = f
                 except Exception as e:
                     print(f"Alert template unavailable: {e}")
-            if alert:
+            news = None
+            if not alert and BREAKING_TEMPLATE != "off" and re.search(BREAKING_WORDS, text, re.I):
+                try:
+                    import breaking_template
+                    news = breaking_template.parse_news(text)
+                except Exception as e:
+                    print(f"Breaking template unavailable: {e}")
+            if news:
+                breaking_template.render_video(news, str(path))
+                if AUDIO:
+                    add_sound(path, breaking_template.DUR)
+                secs, tpl = breaking_template.DUR, "breaking-news"
+            elif alert:
                 alert_template.render_video(alert, str(path))
                 if AUDIO:
                     add_sound(path, alert_template.DUR)

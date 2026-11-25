@@ -490,3 +490,47 @@ Central-bank policy or guidance. Tone and rate expectations can reprice currenci
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-25 09:30
+```
+USD New Home Sales - coming up
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 09:30
+```
+🚨 NEWS ALERT | USD New Home Sales
+⏰ Release: 15:00 GMT
+📊 Forecast: 0.74
+📋 Previous: 0.68
+
+💡 WHAT IT IS
+A market-moving economic release for this currency.
+
+🟢 POSITIVE for USD - HIGHER than forecast ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 09:57
+```
+🚨 SHARP MOVE SP500
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 09:57
+```
+🔵 SP500 ▲ +39.5 pips in 5 min
+📊 Range 1.5x the H1 ATR
+📍 6,997 → 7,037
+
+📰 Nearby news: 15:00 GMT USD New Home Sales
+
+👀 Expect wide spreads and fast reversals. Avoid chasing the move.
+
+🔔 Join our FREE daily setups
+
+Full update: t.me/AXIONMarketUpdates
+```
+

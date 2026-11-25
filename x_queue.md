@@ -363,3 +363,46 @@ Measures price pressure in the economy. It drives interest-rate expectations, wh
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-25 08:00
+```
+USD Core PCE Price Index y/y - coming up
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 08:00
+```
+🚨 NEWS ALERT | USD Core PCE Price Index y/y
+⏰ Release: 13:30 GMT
+📊 Forecast: 3.10%
+📋 Previous: 3.10%
+
+💡 WHAT IT IS
+Measures price pressure in the economy. It drives interest-rate expectations, which move currencies, gold and crypto.
+ ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 08:00
+```
+USD GDP q/q - coming up
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 08:00
+```
+🚨 NEWS ALERT | USD GDP q/q
+⏰ Release: 13:30 GMT
+📊 Forecast: 3.40%
+📋 Previous: 3.40%
+
+💡 WHAT IT IS
+Measures the size and speed of economic growth. Stronger growth usually supports the currency.
+
+🟢 POSITIVE for USD - HIGHER than forecast ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

@@ -448,3 +448,45 @@ Measures the strength of the labour market, a key input for central-bank policy 
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-25 08:31
+```
+🚨 SHARP MOVE ETHUSD
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 08:31
+```
+🟠 ETHUSD ▼ -16.1 pips in 5 min
+📊 Range 1.8x the H1 ATR
+📍 1,651 → 1,635
+
+📰 Nearby news: 13:30 GMT USD Durable Goods Orders m/m
+
+👀 Expect wide spreads and fast reversals. Avoid chasing the move.
+
+🔔 Join our FREE daily setups
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 08:45
+```
+GBP BoE Governor Bailey Speech - coming up
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 08:45
+```
+🚨 NEWS ALERT | GBP BoE Governor Bailey Speech
+⏰ Release: 14:15 GMT
+
+💡 WHAT IT IS
+Central-bank policy or guidance. Tone and rate expectations can reprice currencies, gold and crypto quickly.
+
+🟢 POSITIVE for GBP - Stronger / more hawkish than expected ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

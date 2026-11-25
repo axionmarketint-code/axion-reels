@@ -406,3 +406,45 @@ Measures the size and speed of economic growth. Stronger growth usually supports
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-25 08:00
+```
+USD GDP Sales q/q - coming up
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 08:00
+```
+🚨 NEWS ALERT | USD GDP Sales q/q
+⏰ Release: 13:30 GMT
+📊 Forecast: 1.70%
+📋 Previous: 1.70%
+
+💡 WHAT IT IS
+Measures the size and speed of economic growth. Stronger growth usually supports the currency.
+
+🟢 POSITIVE for USD - HIGHER than forecast ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 08:00
+```
+USD Initial Jobless Claims - coming up
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 08:00
+```
+🚨 NEWS ALERT | USD Initial Jobless Claims
+⏰ Release: 13:30 GMT
+
+💡 WHAT IT IS
+Measures the strength of the labour market, a key input for central-bank policy and economic growth.
+
+🟢 POSITIVE for USD - Stronger / more hawkish than expected ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

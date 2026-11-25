@@ -579,3 +579,47 @@ USD EIA Crude Oil Stocks Change - coming up
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-25 10:00
+```
+🚨 NEWS ALERT | USD EIA Crude Oil Stocks Change
+⏰ Release: 15:30 GMT
+📊 Forecast: 0.35
+📋 Previous: 3.38
+
+💡 WHAT IT IS
+A market-moving economic release for this currency.
+
+🟢 POSITIVE for USD - HIGHER than forecast ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 10:01
+```
+🚨 SHARP MOVE ETHUSD
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 10:01
+```
+🟠 ETHUSD ▲ +29.6 pips in 5 min
+📊 Range 1.7x the H1 ATR
+📍 1,632 → 1,661
+
+📰 Nearby news: 15:00 GMT USD New Home Sales
+
+👀 Expect wide spreads and fast reversals. Avoid chasing the move.
+
+🔔 Join our FREE daily setups
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 10:01
+```
+🚨 SHARP MOVE BTCUSD
+
+Full update: t.me/AXIONMarketUpdates
+```
+

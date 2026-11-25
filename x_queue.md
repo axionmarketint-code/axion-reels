@@ -320,3 +320,46 @@ London: -0.12% | 58,448–59,478 | broke Asia low
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-25 08:00
+```
+USD Durable Goods Orders m/m - coming up
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 08:00
+```
+🚨 NEWS ALERT | USD Durable Goods Orders m/m
+⏰ Release: 13:30 GMT
+📊 Forecast: -0.70%
+📋 Previous: 1.80%
+
+💡 WHAT IT IS
+A market-moving economic release for this currency.
+
+🟢 POSITIVE for USD - HIGHER than forecast ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 08:00
+```
+USD Core PCE Price Index m/m - coming up
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 08:00
+```
+🚨 NEWS ALERT | USD Core PCE Price Index m/m
+⏰ Release: 13:30 GMT
+📊 Forecast: 0.30%
+📋 Previous: 0.30%
+
+💡 WHAT IT IS
+Measures price pressure in the economy. It drives interest-rate expectations, which move currencies, gold and crypto.
+ ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

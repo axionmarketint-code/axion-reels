@@ -654,3 +654,25 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-25 16:30
+```
+EUR EU Leaders Summit - coming up
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 16:30
+```
+🚨 NEWS ALERT | EUR EU Leaders Summit
+⏰ Release: 22:00 GMT
+
+💡 WHAT IT IS
+A market-moving economic release for this currency.
+
+🟢 POSITIVE for EUR - Stronger / more hawkish than expected
+📈 EUR stronger. EURUSD tends to rise.
+ ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

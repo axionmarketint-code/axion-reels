@@ -229,3 +229,26 @@ Measures the size and speed of economic growth. Stronger growth usually supports
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-25 02:36
+```
+🚨 SHARP MOVE ETHUSD
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 03:30
+```
+🟡 XAUUSD | London Open Gold
+⏱️ 08:30 GMT | Price 3,533
+
+📊 Bias: BEARISH 1/10 🔴
+London: +0.27% | 3,516–3,534 | inside Asia range
+📈 Trend: H1 ▬ | H4 ▼ | D1 ▼
+📍 R: 3,575 / 3,586
+📍 S: 3,515 / 3,503
+📆 PDH 3,678 | PDL 3,547
+⚙️ RSI 28 | ATR 17.11 | Vol: Low ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

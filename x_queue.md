@@ -191,3 +191,41 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-25 01:30
+```
+📊 AXION | Asia Wrap
+⏱️ 06:30 GMT
+
+🟡 XAUUSD 3,528 | 🔴 BEARISH 1/10
+   H1 ▬ H4 ▼ D1 ▼ | RSI 25 | R 3,575 | S 3,515
+
+🔵 NAS100 25,844 | 🔴 BEARISH 1/10
+   H1 ▬ H4 ▼ D1 ▼ | RSI 37 | R 25,902 | S 25,787
+
+🔵 SP500 7,150 | 🔴 BEARISH 1/10 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 01:30
+```
+EUR GDP q/q - coming up
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 01:30
+```
+🚨 NEWS ALERT | EUR GDP q/q
+⏰ Release: 07:00 GMT
+📊 Forecast: 0.20%
+📋 Previous: 0.20%
+
+💡 WHAT IT IS
+Measures the size and speed of economic growth. Stronger growth usually supports the currency.
+
+🟢 POSITIVE for EUR - HIGHER than forecast ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

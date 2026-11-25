@@ -534,3 +534,48 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-25 09:57
+```
+🚨 SHARP MOVE NAS100
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 09:57
+```
+🔵 NAS100 ▲ +241.8 pips in 5 min
+📊 Range 1.6x the H1 ATR
+📍 25,110 → 25,351
+
+📰 Nearby news: 15:00 GMT USD New Home Sales
+
+👀 Expect wide spreads and fast reversals. Avoid chasing the move.
+
+🔔 Join our FREE daily setups
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 10:00
+```
+📊 AXION | US Session Check
+⏱️ 15:00 GMT
+
+🔵 NAS100 25,450 | 🔴 BEARISH 1/10
+   H1 ▬ H4 ▼ D1 ▼ | RSI 29 | R 25,902 | S 24,926
+
+🔵 SP500 7,061 | 🔴 BEARISH 0/10
+   H1 ▼ H4 ▼ D1 ▼ | RSI 29 | R 7,092 | S 6,884
+
+🟠 BTCUSD 58,279 | 🔴 BEARISH 1/10 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 10:00
+```
+USD EIA Crude Oil Stocks Change - coming up
+
+Full update: t.me/AXIONMarketUpdates
+```
+

@@ -623,3 +623,34 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-25 10:01
+```
+🟠 BTCUSD ▲ +794.1 pips in 5 min
+📊 Range 1.6x the H1 ATR
+📍 57,836 → 58,630
+
+📰 Nearby news: 15:00 GMT USD New Home Sales
+
+👀 Expect wide spreads and fast reversals. Avoid chasing the move.
+
+🔔 Join our FREE daily setups
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 16:00
+```
+📊 AXION | NY Close Recap
+⏱️ 21:00 GMT
+
+🟡 XAUUSD 3,572 | 🔴 BEARISH 2/10
+   H1 ▬ H4 ▼ D1 ▼ | RSI 59 | R 3,586 | S 3,534
+
+🔵 NAS100 26,004 | 🔴 BEARISH 2/10
+   H1 ▬ H4 ▼ D1 ▼ | RSI 57 | R 26,065 | S 25,953
+
+🔵 SP500 7,176 | 🔴 BEARISH 2/10 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

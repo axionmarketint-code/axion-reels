@@ -828,3 +828,41 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-26 16:00
+```
+📊 AXION | NY Close Recap
+⏱️ 21:00 GMT
+
+🟡 XAUUSD 3,566 | 🔴 BEARISH 3/10
+   H1 ▬ H4 ▼ D1 ▼ | RSI 52 | R 3,575 | S 3,561
+
+🔵 NAS100 (closed) 26,185 | ⚪ NEUTRAL 5/10
+   H1 ▬ H4 ▬ D1 ▼ | RSI 55 | R 26,305 | S 26,095
+
+🔵 SP500 (closed) 7,225 | ⚪ NEUTRAL 6/10 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-26 16:30
+```
+EUR EU Leaders Summit - coming up
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-26 16:30
+```
+🚨 NEWS ALERT | EUR EU Leaders Summit
+⏰ Release: 22:00 GMT
+
+💡 WHAT IT IS
+A market-moving economic release for this currency.
+
+🟢 POSITIVE for EUR - Stronger / more hawkish than expected
+📈 EUR stronger. EURUSD tends to rise.
+ ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

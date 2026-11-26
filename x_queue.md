@@ -866,3 +866,25 @@ A market-moving economic release for this currency.
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-26 17:00
+```
+🚨 SHARP MOVE USDJPY
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-26 17:00
+```
+💱 USDJPY ▼ -5.7 pips in 5 min
+📊 Range 1.7x the H1 ATR
+📍 159.270 → 159.213
+
+📰 Nearby news: 22:00 GMT EUR EU Leaders Summit
+
+👀 Expect wide spreads and fast reversals. Avoid chasing the move.
+
+🔔 Join our FREE daily setups
+
+Full update: t.me/AXIONMarketUpdates
+```
+

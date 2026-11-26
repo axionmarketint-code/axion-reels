@@ -790,3 +790,41 @@ London: +0.17% | 60,458–61,060 | inside Asia range
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-26 10:00
+```
+📊 AXION | US Session Check
+⏱️ 15:00 GMT
+
+🔵 NAS100 26,262 | ⚪ NEUTRAL 5/10
+   H1 ▬ H4 ▬ D1 ▼ | RSI 58 | R 26,305 | S 26,095
+
+🔵 SP500 7,241 | ⚪ NEUTRAL 6/10
+   H1 ▲ H4 ▬ D1 ▼ | RSI 62 | R 7,246 | S 7,235
+
+🟠 BTCUSD 60,695 | ⚪ NEUTRAL 5/10 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-26 10:04
+```
+🚨 SHARP MOVE ETHUSD
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-26 10:04
+```
+🟠 ETHUSD ▼ -18.6 pips in 5 min
+📊 Range 2.0x the H1 ATR
+📍 1,697 → 1,678
+
+📰 Nearby news: 22:00 GMT EUR EU Leaders Summit
+
+👀 Expect wide spreads and fast reversals. Avoid chasing the move.
+
+🔔 Join our FREE daily setups
+
+Full update: t.me/AXIONMarketUpdates
+```
+

@@ -676,3 +676,25 @@ A market-moving economic release for this currency.
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-25 19:17
+```
+🚨 SHARP MOVE ETHUSD
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-25 19:17
+```
+🟠 ETHUSD ▲ +32.8 pips in 5 min
+📊 Range 1.5x the H1 ATR
+📍 1,695 → 1,728
+
+📰 Nearby news: 22:00 GMT EUR EU Leaders Summit
+
+👀 Expect wide spreads and fast reversals. Avoid chasing the move.
+
+🔔 Join our FREE daily setups
+
+Full update: t.me/AXIONMarketUpdates
+```
+

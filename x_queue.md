@@ -888,3 +888,46 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-26 18:00
+```
+JPY Tokyo CPI excl. Food and Energy y/y - coming up
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-26 18:00
+```
+🚨 NEWS ALERT | JPY Tokyo CPI excl. Food and Energy y/y
+⏰ Release: 23:30 GMT
+📊 Forecast: 2.40%
+📋 Previous: 2.60%
+
+💡 WHAT IT IS
+Measures price pressure in the economy. It drives interest-rate expectations, which move currencies, gold and crypto.
+ ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-26 18:00
+```
+🚨 SHARP MOVE USDJPY
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-26 18:00
+```
+💱 USDJPY ▲ +9.7 pips in 5 min
+📊 Range 1.7x the H1 ATR
+📍 159.167 → 159.264
+
+📰 Nearby news: 22:00 GMT EUR EU Leaders Summit
+
+👀 Expect wide spreads and fast reversals. Avoid chasing the move.
+
+🔔 Join our FREE daily setups
+
+Full update: t.me/AXIONMarketUpdates
+```
+

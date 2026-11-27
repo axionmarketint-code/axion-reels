@@ -975,3 +975,25 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-26 21:34
+```
+🚨 SHARP MOVE XAUUSD
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-26 21:34
+```
+🟡 XAUUSD ▲ +185.9 pips in 5 min
+📊 Range 1.5x the H1 ATR
+📍 3,616 → 3,635
+
+📰 Nearby news: 22:00 GMT EUR EU Leaders Summit
+
+👀 Expect wide spreads and fast reversals. Avoid chasing the move.
+
+🔔 Join our FREE daily setups
+
+Full update: t.me/AXIONMarketUpdates
+```
+

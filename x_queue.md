@@ -1067,3 +1067,48 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-27 07:30
+```
+🟡 XAUUSD | NY Pre-Open Briefing
+⏱️ 12:30 GMT | Price 3,668
+
+📊 Bias: NEUTRAL 5/10 ⚪
+London: +0.27% | 3,658–3,685 | broke Asia high
+📈 Trend: H1 ▬ | H4 ▬ | D1 ▼
+📍 R: 3,678 / 3,690
+📍 S: 3,620 / 3,607
+📆 PDH 3,607 | PDL 3,551 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-27 07:30
+```
+🔵 NAS100 | NY Pre-Open Briefing
+⏱️ 12:30 GMT | Price 26,607
+
+📊 Bias: NEUTRAL 4/10 ⚪
+London: -0.20% | 26,551–26,829 | inside Asia range
+📈 Trend: H1 ▬ | H4 ▬ | D1 ▼
+📍 R: 26,835 / 26,912
+📍 S: 26,178 / 26,095
+📆 PDH 26,399 | PDL 25,961 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-27 07:30
+```
+🟠 BTCUSD | NY Pre-Open Briefing
+⏱️ 12:30 GMT | Price 61,531
+
+📊 Bias: NEUTRAL 5/10 ⚪
+London: -0.22% | 61,435–62,209 | broke Asia high
+📈 Trend: H1 ▬ | H4 ▬ | D1 ▼
+📍 R: 61,615 / 61,905
+📍 S: 61,420 / 61,059
+📆 PDH 61,615 | PDL 59,911 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

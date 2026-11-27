@@ -931,3 +931,47 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-26 21:07
+```
+🚨 SHARP MOVE BTCUSD
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-26 21:07
+```
+🟠 BTCUSD ▲ +433.7 pips in 5 min
+📊 Range 1.8x the H1 ATR
+📍 60,911 → 61,344
+
+📰 Nearby news: 22:00 GMT EUR EU Leaders Summit
+
+👀 Expect wide spreads and fast reversals. Avoid chasing the move.
+
+🔔 Join our FREE daily setups
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-26 21:07
+```
+🚨 SHARP MOVE ETHUSD
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-26 21:07
+```
+🟠 ETHUSD ▲ +15.5 pips in 5 min
+📊 Range 1.7x the H1 ATR
+📍 1,704 → 1,719
+
+📰 Nearby news: 22:00 GMT EUR EU Leaders Summit
+
+👀 Expect wide spreads and fast reversals. Avoid chasing the move.
+
+🔔 Join our FREE daily setups
+
+Full update: t.me/AXIONMarketUpdates
+```
+

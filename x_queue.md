@@ -997,3 +997,19 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-27 01:30
+```
+📊 AXION | Asia Wrap
+⏱️ 06:30 GMT
+
+🟡 XAUUSD 3,651 | ⚪ NEUTRAL 5/10
+   H1 ▬ H4 ▬ D1 ▼ | RSI 71 | R 3,678 | S 3,620
+
+🔵 NAS100 26,803 | ⚪ NEUTRAL 5/10
+   H1 ▬ H4 ▬ D1 ▼ | RSI 75 | R 26,899 | S 26,658
+
+🔵 SP500 7,315 | ⚪ NEUTRAL 6/10 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

@@ -1051,3 +1051,19 @@ Shows consumer spending power and confidence, a major driver of economic growth.
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-27 05:30
+```
+📊 AXION | Forex Watch
+⏱️ 10:30 GMT
+
+💱 EURUSD 1.09590 | 🔴 BEARISH 1/10
+   H1 ▬ H4 ▼ D1 ▼ | RSI 42 | R 1.09664 | S 1.09567
+
+💱 GBPUSD 1.31270 | ⚪ NEUTRAL 5/10
+   H1 ▲ H4 ▬ D1 ▼ | RSI 60 | R 1.31285 | S 1.31195
+
+💱 USDJPY 159.551 | 🟢 BULLISH 10/10 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

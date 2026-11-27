@@ -1029,3 +1029,25 @@ London: +0.46% | 3,658–3,680 | broke Asia high
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-27 04:30
+```
+EUR Consumer Price Expectations - coming up
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-27 04:30
+```
+🚨 NEWS ALERT | EUR Consumer Price Expectations
+⏰ Release: 10:00 GMT
+📊 Forecast: 41.30
+📋 Previous: 33.90
+
+💡 WHAT IT IS
+Shows consumer spending power and confidence, a major driver of economic growth.
+
+🟢 POSITIVE for EUR - HIGHER than forecast ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

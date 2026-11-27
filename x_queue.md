@@ -1200,3 +1200,19 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-27 10:00
+```
+📊 AXION | US Session Check
+⏱️ 15:00 GMT
+
+🔵 NAS100 26,206 | 🔴 BEARISH 3/10
+   H1 ▬ H4 ▬ D1 ▼ | RSI 42 | R 26,305 | S 26,178
+
+🔵 SP500 7,219 | 🔴 BEARISH 3/10
+   H1 ▬ H4 ▬ D1 ▼ | RSI 40 | R 7,229 | S 7,203
+
+🟠 BTCUSD 58,964 | 🔴 BEARISH 2/10 ...
+
+Full update: t.me/AXIONMarketUpdates
+```
+

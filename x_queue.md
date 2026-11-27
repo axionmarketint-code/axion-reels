@@ -1112,3 +1112,47 @@ London: -0.22% | 61,435–62,209 | broke Asia high
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-27 09:34
+```
+🚨 SHARP MOVE NAS100
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-27 09:34
+```
+🔵 NAS100 ▼ -206.7 pips in 5 min
+📊 Range 1.6x the H1 ATR
+📍 26,546 → 26,339
+
+📰 Nearby news: 22:00 GMT EUR EU Leaders Summit
+
+👀 Expect wide spreads and fast reversals. Avoid chasing the move.
+
+🔔 Join our FREE daily setups
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-27 09:34
+```
+🚨 SHARP MOVE BTCUSD
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-27 09:34
+```
+🟠 BTCUSD ▼ -672.1 pips in 5 min
+📊 Range 1.7x the H1 ATR
+📍 61,410 → 60,738
+
+📰 Nearby news: 22:00 GMT EUR EU Leaders Summit
+
+👀 Expect wide spreads and fast reversals. Avoid chasing the move.
+
+🔔 Join our FREE daily setups
+
+Full update: t.me/AXIONMarketUpdates
+```
+

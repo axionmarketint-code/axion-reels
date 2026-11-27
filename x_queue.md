@@ -1156,3 +1156,47 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-27 09:34
+```
+🚨 SHARP MOVE ETHUSD
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-27 09:34
+```
+🟠 ETHUSD ▼ -23.8 pips in 5 min
+📊 Range 1.7x the H1 ATR
+📍 1,722 → 1,698
+
+📰 Nearby news: 22:00 GMT EUR EU Leaders Summit
+
+👀 Expect wide spreads and fast reversals. Avoid chasing the move.
+
+🔔 Join our FREE daily setups
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-27 09:34
+```
+🚨 SHARP MOVE SP500
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-27 09:34
+```
+🔵 SP500 ▼ -30.3 pips in 5 min
+📊 Range 1.6x the H1 ATR
+📍 7,279 → 7,248
+
+📰 Nearby news: 22:00 GMT EUR EU Leaders Summit
+
+👀 Expect wide spreads and fast reversals. Avoid chasing the move.
+
+🔔 Join our FREE daily setups
+
+Full update: t.me/AXIONMarketUpdates
+```
+

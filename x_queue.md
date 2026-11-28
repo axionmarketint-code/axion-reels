@@ -1232,3 +1232,17 @@ Full update: t.me/AXIONMarketUpdates
 Full update: t.me/AXIONMarketUpdates
 ```
 
+### 2026-11-28 06:00
+```
+🚨 SHARP MOVE BTCUSD
+
+Full update: t.me/AXIONMarketUpdates
+```
+
+### 2026-11-28 06:00
+```
+🚨 SHARP MOVE ETHUSD
+
+Full update: t.me/AXIONMarketUpdates
+```
+
